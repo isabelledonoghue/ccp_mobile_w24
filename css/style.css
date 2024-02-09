@@ -1,6 +1,7 @@
 body {
     background-color: #cfc1de;
     color: #2f035e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -108,7 +109,6 @@ img {
 .skip-link {
     position: absolute;
 	left: -1000px;
-    color: #ffffff;
 }
 
 .skip-link:focus {
