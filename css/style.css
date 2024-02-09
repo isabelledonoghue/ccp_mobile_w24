@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     font-size: 40px;
     padding-top: 20px;
+    font-weight: bold;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 h3 {
@@ -46,6 +48,10 @@ img {
     color:#cfc1de;
 }
 
+.instructions {
+    list-style-type: decimal;
+}
+
 .video {
     padding-top: 10px;
     text-align: center;
@@ -54,8 +60,7 @@ img {
 }
 
 .likes-list {
-    list-style-type: none;
-    padding: 0;
+    padding-bottom: 30px;
     margin: 0;
     text-align: center;
 }
@@ -66,9 +71,10 @@ img {
 }
 
 .main-image {
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .home-image {
@@ -83,11 +89,13 @@ img {
     grid-column-gap: 10px;
     list-style: none;
     background-color: #2f035e;
-    padding: 15px;
+    padding: 25px;
+    font-size: 20px;
 } 
 .nav-bar a {
     color: #cfc1de;
     text-decoration: none;
+    text-align: center;
 }
 
 .grid-discussion {
@@ -98,11 +106,13 @@ img {
 }
 
 .skip-link {
-    opacity: 0;
+    position: absolute;
+	left: -1000px;
+    color: #ffffff;
 }
 
 .skip-link:focus {
-    opacity: 1;
+    left: 10px;
 }
 
 .nav-bar a.current-page {
