@@ -102,8 +102,9 @@ img {
 .grid-discussion {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
+    width: 90%;
     grid-column-gap: 10px;
+    margin-right: 10%;
 }
 
 .skip-link {
@@ -119,4 +120,10 @@ img {
     color: #ffffff;
     font-weight: bold;
     text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    video {
+        display: none;
+    }
 }
